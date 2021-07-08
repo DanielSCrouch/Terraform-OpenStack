@@ -1,0 +1,9 @@
+#cloud-config
+password: ${root_password}
+chpasswd: { expire: False }
+ssh_pwauth: True
+
+
+
+# Resource
+# https://newbedev.com/how-do-i-set-a-password-on-an-ubuntu-cloud-image
